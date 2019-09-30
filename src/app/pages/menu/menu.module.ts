@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
-import { HomePage } from '../../home/home.page';
 import { MenuPage } from './menu.page';
 
 
@@ -30,7 +29,7 @@ const routes: Routes = [
         path: 'contactus', 
         loadChildren: '../contactus/contactus.module#ContactusPageModule' 
       },      
-    { 
+      { 
       path: 'cart',
       loadChildren: '../cart/cart.module#CartPageModule' 
       }
@@ -46,8 +45,7 @@ const routes: Routes = [
     IonicModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [MenuPage,
-    HomePage]
+  declarations: [MenuPage]
 })
 export class MenuPageModule {}
  

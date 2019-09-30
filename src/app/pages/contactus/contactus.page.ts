@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HOME_CONSTANTS } from '../../home/constants/home.constant';
 import { Router } from '@angular/router';
 
 @Component({
@@ -9,19 +8,11 @@ import { Router } from '@angular/router';
 })
 export class ContactusPage implements OnInit {
 
-  HOME_CONSTANTS: any;
-  marqueeText = '';
-
   constructor(private router: Router) { }
 
-  ngOnInit() {
+  ngOnInit() {}
 
-    this.HOME_CONSTANTS = HOME_CONSTANTS,
-    this.marqueeText = this.HOME_CONSTANTS.MARQUEE_TEXT
-
-  }
-
-  submit(){
+  submit(ngForm){
     this.router.navigate(['/menu/products']);
   }
 

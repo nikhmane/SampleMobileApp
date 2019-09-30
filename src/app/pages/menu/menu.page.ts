@@ -17,15 +17,15 @@ export class MenuPage implements OnInit {
 
   pages: any = [
     {
-      title: 'Products Page',
+      title: 'Products',
       url: '/menu/products'
     },
     {
-      title: 'About Us Page',
+      title: 'About Us',
       url: '/menu/aboutus'
     },
     {
-      title: 'Contact Us Page',
+      title: 'Contact Us',
       url: '/menu/contactus'
     },
     {

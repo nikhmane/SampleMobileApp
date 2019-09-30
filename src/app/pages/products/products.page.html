@@ -1,7 +1,5 @@
 <ion-header>
-    <marquee direction="left" speed="normal" behavior="loop" >
-        {{marqueeText}}
-    </marquee>
+  <app-header></app-header>
   <ion-toolbar color="white">
       <ion-buttons slot="start">
           <ion-menu-button></ion-menu-button>
@@ -17,7 +15,7 @@
 </ion-header>
 
 <ion-content>
-       <div *ngFor="let cat of items" class="category-block">
+       <div *ngFor="let cat of products" class="category-block">
  
         <ion-row no-padding class="category-banner">
           <ion-col text-left button tappable (click)="cat.expanded = !cat.expanded" align-self-center>
@@ -31,7 +29,7 @@
               <ion-card>
                 <ion-card-header>
                   <ion-card-title>
-                    {{ product.name }} - ${{ product.price }}
+                    {{ product.name }} - {{ (product.price) | currency:'INR':'symbol' }}
                   </ion-card-title>
                   <ion-card-content>
                     <img src={{product.imagePath}}>
@@ -47,3 +45,7 @@
       </div>
 
 </ion-content>
+<ion-footer>
+  <app-footer></app-footer>
+</ion-footer>
+

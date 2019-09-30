@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { HOME_CONSTANTS } from '../../home/constants/home.constant';
 import { Router } from '@angular/router';
 import { CartService } from '../cart/cart.service';
+import { Products } from '../../models/products';
 
 @Component({
   selector: 'app-products',
@@ -14,7 +14,8 @@ export class ProductsPage implements OnInit {
   marqueeText = '';
 
   cart = [];
-  items = [];
+  products: Products;
+  //items: any = [];
  
   sliderConfig = {
     slidesPerView: 1.6,
@@ -26,10 +27,11 @@ export class ProductsPage implements OnInit {
 
   ngOnInit() {
 
-    this.HOME_CONSTANTS = HOME_CONSTANTS,
-    this.marqueeText = this.HOME_CONSTANTS.MARQUEE_TEXT
+    this.cartService.getProducts().subscribe((data) => {
+         this.products = data;
+         });
 
-    this.items = this.cartService.getProducts();
+    //this.items = this.cartService.getProducts();
     this.cart = this.cartService.getCart();
   }
  

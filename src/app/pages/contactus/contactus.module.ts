@@ -6,6 +6,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { ContactusPage } from './contactus.page';
+import { FooterModule } from '../footer/footer.module';
+import { HeaderModule } from '../header/header.module';
 
 const routes: Routes = [
   {
@@ -19,8 +21,11 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
+    HeaderModule,
+    FooterModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [ContactusPage]
+  declarations: [ContactusPage],
+  entryComponents:[]
 })
 export class ContactusPageModule {}

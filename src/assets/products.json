@@ -1,0 +1,60 @@
+[
+    {
+      "category": "Dresses",
+      "expanded": true,
+      "productss": [
+      { "id": 0, "name": "Addyvero", "price": "499", "percentoff": "30", "imagePath": "../../../assets/productImages/Dress1.jpeg" },
+      { "id": 1, "name": "JW Fashion", "price": "599", "percentoff": "30", "imagePath": "../../../assets/productImages/Dress2.jpeg" },
+      { "id": 2, "name": "Sassfras", "price": "399", "percentoff": "30", "imagePath": "../../../assets/productImages/Dress3.jpeg" }
+    ],
+      "products": [
+        { "id": 0, "name": "Addyvero", "price": "499", "percentoff": "30", "imagePath": "../../../assets/productImages/Dress1.jpeg" },
+        { "id": 1, "name": "JW Fashion", "price": "599", "percentoff": "30", "imagePath": "../../../assets/productImages/Dress2.jpeg" },
+        { "id": 2, "name": "Sassfras", "price": "399", "percentoff": "30", "imagePath": "../../../assets/productImages/Dress3.jpeg" },
+        { "id": 3, "name": "SoulFire", "price": "799", "percentoff": "30", "imagePath": "../../../assets/productImages/Dress4.jpeg" }
+      ]
+    },
+    {
+      "category": "Kurtis & Tunics",
+      "products": [
+        { "id": 4, "name": "Kurti-1", "price": "899" , "percentoff": "20", "imagePath": "../../../assets/productImages/Kurti1.jpeg"},
+        { "id": 5, "name": "Kurti-2", "price": "699" , "percentoff": "20", "imagePath": "../../../assets/productImages/Kurti2.jpeg"},
+        { "id": 6, "name": "Kurti-3", "price": "699", "percentoff": "20", "imagePath": "../../../assets/productImages/Kurti3.jpeg"}
+      ]
+    },
+    {
+      "category": "Footwear",
+      "products": [
+        { "id": 7, "name": "Footwear-1", "price": "899", "percentoff": "25", "imagePath": "../../../assets/productImages/Footwear1.jpeg" },
+        { "id": 8, "name": "Footwear-2", "price": "599", "percentoff": "25", "imagePath": "../../../assets/productImages/Footwear2.jpeg" },
+        { "id": 9, "name": "Footwear-3", "price": "999", "percentoff": "25", "imagePath": "../../../assets/productImages/Footwear3.jpeg" }
+      ]
+    },
+    {
+      "category": "Sarees",
+      "products": [
+        { "id": 10, "name": "Saree-1", "price": "499", "percentoff": "30", "imagePath": "../../../assets/productImages/Saree1.jpeg" },
+        { "id": 11, "name": "Saree-2", "price": "599", "percentoff": "30", "imagePath": "../../../assets/productImages/Saree2.jpeg" },
+        { "id": 12, "name": "Saree-3", "price": "399", "percentoff": "30", "imagePath": "../../../assets/productImages/Saree3.jpeg" },
+        { "id": 13, "name": "Saree-4", "price": "799", "percentoff": "30", "imagePath": "../../../assets/productImages/Saree4.jpeg" }
+      ]
+    },
+    {
+      "category": "Salwar Suits",
+      "products": [
+        { "id": 14, "name": "Salwar-1", "price": "499", "percentoff": "20", "imagePath": "../../../assets/productImages/Salwar1.jpeg" },
+        { "id": 15, "name": "Salwar-2", "price": "599", "percentoff": "20", "imagePath": "../../../assets/productImages/Salwar2.jpeg" },
+        { "id": 16, "name": "Salwar-3", "price": "399", "percentoff": "20", "imagePath": "../../../assets/productImages/Salwar3.jpeg" },
+        { "id": 17, "name": "Salwar-4", "price": "799", "percentoff": "20", "imagePath": "../../../assets/productImages/Salwar4.jpeg" }
+      ]
+    },
+    {
+      "category": "Bags",
+      "products": [
+        { "id": 18, "name": "Baggit-1", "price": "499", "percentoff": "10", "imagePath": "../../../assets/productImages/Bag1.jpeg" },
+        { "id": 19, "name": "H&M", "price": "599", "percentoff": "10", "imagePath": "../../../assets/productImages/Bag2.jpeg" },
+        { "id": 20, "name": "Baggit-2", "price": "399", "percentoff": "10", "imagePath": "../../../assets/productImages/Bag3.jpeg" },
+        { "id": 21, "name": "Esbeda", "price": "799", "percentoff": "10", "imagePath": "../../../assets/productImages/Bag4.jpeg" }
+      ]
+    }
+  ]

@@ -4,8 +4,9 @@ import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
-
 import { AboutusPage } from './aboutus.page';
+import { FooterModule } from '../footer/footer.module';
+import { HeaderModule } from '../header/header.module';
 
 const routes: Routes = [
   {
@@ -19,6 +20,8 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
+    HeaderModule,
+    FooterModule,
     RouterModule.forChild(routes)
   ],
   declarations: [AboutusPage]
